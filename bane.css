@@ -1,0 +1,87 @@
+/* 
+bane.css
+big guy colours only
+CIA: 
+B5BEB4
+617888
+120C0C
+955D50
+426376
+
+BANE:
+6A5D4D
+616B6D
+CEA79E
+A39180
+ACA69B
+
+To-do: 
+• work out a way to have the letters filled with CIA - done. [✓]
+• work out a way to have CIA be for the whole thing, not just each individual div (though it still somewhat works, but it'd be nice to know how it works.) []
+*/
+
+.divcia {
+	padding: 0;
+	text-align: center;
+	vertical-align: 50%;
+	font-size: 8em;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	background: url(cia.jpg);
+	background-size: 20% auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+
+#div1 {
+	background-color: #B5BEB4;
+	height: 20%;
+	width: 100%;
+
+
+
+
+}
+
+#div2 {
+	background-color: #617888;
+	height: 20%;
+	width: 100%;
+	
+}
+
+#div3 {
+	background-color: #120C0C;
+	height: 20%;
+	width: 100%;
+	
+}
+
+#div4 {
+	background-color: #955D50;
+	height: 20%;
+	width: 100%;
+	
+}
+
+#div5 {
+	background-color: #426376;
+	height: 20%;
+	width: 100%;
+
+}
+
+#cia {
+	margin-left: 50%;
+	height: 100%;
+	width: auto;
+}
+
+#colcon {
+	margin-left: 0px;
+}
